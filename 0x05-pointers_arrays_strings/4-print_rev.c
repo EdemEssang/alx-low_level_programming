@@ -1,14 +1,14 @@
 #include <stdio.h>
 
- /**
-  *print_rev - a function that prints a string, in reverse
-  *rcount: is to initially count to end
-  *  n is to count back
-  *
-  * @s: str input
-  *
-  * Return: string in reverse
-  */
+/**
+* print_rev - a function that prints a string in reverse
+*rcount: is to initially count to end
+*  n is to count back
+*
+* @s: str input
+*
+* Return: string in reverse
+*/
 
 void print_rev(char *s)
 {
@@ -18,7 +18,6 @@ void print_rev(char *s)
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		rcount++;
-	
 	}
 
 	for (n = (rcount - 1); n >= 0; n--)
