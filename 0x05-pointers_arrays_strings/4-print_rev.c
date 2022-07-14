@@ -23,7 +23,7 @@ void print_rev(char *s)
 
 	for (n = (rcount - 1); n >= 0; n--)
 	{
-		putchar9s[n]);
+		putchar(s[n]);
 	}
 
 	putchar('\n');
