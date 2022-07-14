@@ -2,11 +2,13 @@
 #include <stdio.h>
 
 /**
-*void swap_int - a function that swaps the values of two integers
-*@a: input 1
-*@b: input 2
-*Return: integers
+*swap_int - a function that swaps the values of two integers
+*@a: first input
+*@b: second input
+*Return: 0
 **/
+
+/*swap_int(int *a, int *b) - function that swap the values of a and b 
 
 void swap_int(int *a, int *b)
 {
