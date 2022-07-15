@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * *_strcat - a function that concatenates two strings
+ *   _strcat - a function that concatenates two strings
  * overwrite the terminating null byte (\0) at the end of @dest
  * adds a terminating null byte
  *
