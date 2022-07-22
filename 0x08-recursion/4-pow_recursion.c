@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
-* _pow_recursion - function that returns the value 
+* _pow_recursion - function that returns the value
 * of x raised to the power of y which is x^y
 * if y is lower than 0, the function should return -1
 * @x: integer x
