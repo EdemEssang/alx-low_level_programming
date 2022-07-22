@@ -22,7 +22,7 @@ int _pow_recursion(int x, int y)
 	{
 		even = _pow_recursion(x, y / 2);
 		return (even * even);
-    }
+	}
 	else
 		return (x * _pow_recursion(x, y - 1));
 }
