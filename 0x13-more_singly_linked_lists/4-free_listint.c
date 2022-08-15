@@ -6,17 +6,15 @@
 * free_listint - a function that frees a listint_t list.
 * @head: struct
 *
-* Return: free
 */
 void free_listint(listint_t *head)
 {
-	if (head == NULL)
-		return;
+	listint_t *tmp;
 
 	while (head)
 	{
+		tmp = head->next;
 		free(head);
-		head = head->next;
+		head = tmp;
 	}
 }
-
