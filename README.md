@@ -1,1 +1,1 @@
-Repo containning programming in c
+this readme describes this repo
