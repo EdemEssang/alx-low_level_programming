@@ -1,42 +1,41 @@
 #include <stdio.h>
 /**
- * Prints all possible combinations of two two-digit ybers,
- *
- * ranging from 0-99, separated by a comma followed by a space.
-* let "y" represent the digits
-*/
+ * main - Prints all possible combinations of a pair of
+ * two digit numbers, without any repetition.
+(*
+ * Return: 0 on success.
+ */
+
 int main(void)
 {
+	int i, j;
 
-	int y1, y2;
-
-	for (y1 =0; y1 <= 98; y1++)
+	for (i = 0; i <= 99; i++)
 	{
-	
-	   for(y2 = y1 + 1; y2 <= 99; y2++)
-	   {
-	   	putchar((y1 / 10) + '0');
-		putchar((y1 % 10) + '0');
-		putchar(' ');
-		putchar((y2 / 10) + '0');
-		putchar((y2 % 10) + '0');
-
-
-
-	          
-		if (y1 == 98 && y2 ==99)
-		    continue;
-
-		putchar(',');
-		putchar(' ');
-		  
-	   
-	   
-	   }
-	
+		for (j = 0; j <= 99; j++)
+		{
+			if (i < j && i != j)
+			{
+				putchar((i / 10) + '0');
+				putchar((i % 10) + '0');
+				putchar(' ');
+				putchar((j / 10) + '0');
+				putchar((j % 10) + '0');
+				if (i != 98 || j != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
 	}
-	
 	putchar('\n');
-
 	return (0);
 }
+
+
+
+
+
+
+
