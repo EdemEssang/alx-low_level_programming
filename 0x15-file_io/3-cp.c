@@ -9,11 +9,12 @@
 #endif
 
 /**
- * main - check the code for Holberton School students.
- * @argc: name of my file
- * @argv: number of the letters that i used
- * Return: Always 0.
- */
+* main - a program that copies the content of a file to another file.
+* @argc: name of my file
+* @argv: number of the letters that i used
+*
+* Return: Always 0.
+*/
 
 int main(int argc, char *argv[])
 {
