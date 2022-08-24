@@ -1,41 +1,20 @@
-#include <stdio.h>
-
+#include"main.h"
 /**
- *
- * A function that prints 10 times the alphabet, in lowercase,
- * followed by a new line.
- *
- */
-
-
+* print_alphabet_x10 - function that will print the alphabet 10 times
+*
+*/
 void print_alphabet_x10(void)
 {
+	int line, ch;
 
-	int n, counter;
-
-	counter = 0;
-
-	while (counter < 10)
+	for (line = 0; line <= 9; ++line)
 	{
-	
-		for (n = 'a'; n <= 'z'; n++)
-		{
-		
-			_putchar(n);
-		
-		}
-	
-		count++;
-		  _putchar('\n');
-	
-	
-	
-	
-	}	
+		for (ch = 'a'; ch <= 'z'; ++ch)
+			_putchar(ch);
 
-
-
-
-
+		_putchar('\n');
+	}
 
 }
+
+
