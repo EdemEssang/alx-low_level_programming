@@ -2,20 +2,22 @@
 /**
 * main - Entry point
 *
-* Return: Always 0 (Success)
+* Description: prints _putchar using putchar prototype
+*
+* Return: Always 0 (success)
 */
 int main(void)
 {
-	char *sh = "Holberton";
+	char str[] = "_putchar";
+	int ch;
 
-	while (*sh)
-	{
-		putchar(*sh);
-		sh++;
-	}
-	putchar('\n');
+	for (ch = 0; ch < 8; ++ch)
+		_putchar(str[ch]);
+
+	_putchar('\n');
 
 	return (0);
+
 }
 
 
