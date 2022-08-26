@@ -1,28 +1,29 @@
-
-#include <stdio.h>>
-
+#include"main.h"
 /**
- Write a function that prints the numbers, from 0 to 9, followed by a new line.
-
-Prototype: void print_most_numbers(void);
-Do not print 2 and 4
-You can only use _putchar twice in your code
-  */
+* print_most_numbers - print 0 - 9 apart
+*                 from 2 and 4 and you can
+*                 only use _putchar twice
+* Return: Always 0 (Success)
+*/
 void print_most_numbers(void)
 {
-	int x = 0;
+	int num;
 
-	for (; x <= 9; x++)
+
+
+	for (num = 0; num <= 9; ++num)
+
 	{
-		if (x == 2 || x == 4)
-		{
+
+		if (num == 2 || num == 4)
+
 			continue;
-		}
-		else
-		{
-			_putchar(x + '0');
-		}
+
+		_putchar(num + 48);
+
 	}
 
 	_putchar('\n');
+
 }
+
