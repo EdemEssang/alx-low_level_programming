@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 /**
-* _strncmp - a program that displays the information contained in the ELF header at the start of an ELF file
+* _strncmp - a program that displays the information contained in the ELF header at* the start of an ELF file
 * @s1: the first string
 * @s2: the second string
 * @n: the max number of bytes to compare
