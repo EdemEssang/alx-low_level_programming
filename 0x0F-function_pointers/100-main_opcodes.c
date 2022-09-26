@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
-* main - a program that prints the opcodes of its own main function.
-* @argc: argument count.
-* @argv: argument vector.
-*
-* Return: 0.
-*/
+ * main - check the code for Holberton School students.
+ * @argc: argument count.
+ * @argv: argument vector.
+ *
+ * Return: Always 0.
+ */
 int main(int argc, char *argv[])
 {
 	char *opc = (char *) main;

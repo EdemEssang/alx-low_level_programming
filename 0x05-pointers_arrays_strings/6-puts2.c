@@ -1,21 +1,21 @@
-#include <stdio.h>
+#include"main.h"
 
 /**
- * puts2 - is a function that print only one character out of two
- * starting with the first one
- * @str: input
+ * puts2 - prints every character of a string
  *
- */
+ * @str: string parameter input
+ *
+ * Return: Noting
+*/
+
 void puts2(char *str)
 {
-	int i = 0;
+	int i;
 
-	for (; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; ++i)
 	{
-		if ((i % 2) == 0)
-			putchar(str[i]);
-		else
-			continue;
+		if (i % 2 == 0)
+			_putchar(str[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }

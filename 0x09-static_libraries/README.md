@@ -1,1 +1,3 @@
-this is a description of the directory
+#concept of C static libraries
+
+project 0x09. C - Static libraries

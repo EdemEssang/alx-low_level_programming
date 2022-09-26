@@ -22,4 +22,4 @@ typedef struct print
 	void (*print_func)(va_list arg);
 } func_printer;
 
-#endif
+#endif /* VARIADIC_FUNCTIONS_H */
